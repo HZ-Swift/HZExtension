@@ -12,6 +12,9 @@
 		0B3E3C082005FD3C00DF4E8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B3E3C062005FD3C00DF4E8B /* Main.storyboard */; };
 		0B3E3C0A2005FD3C00DF4E8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B3E3C092005FD3C00DF4E8B /* Assets.xcassets */; };
 		0B3E3C0D2005FD3C00DF4E8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B3E3C0B2005FD3C00DF4E8B /* LaunchScreen.storyboard */; };
+		0B3E3C162005FDFF00DF4E8B /* HZStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3E3C152005FDFF00DF4E8B /* HZStringExtension.swift */; };
+		0B3E3C182006050B00DF4E8B /* HZPrint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3E3C172006050B00DF4E8B /* HZPrint.swift */; };
+		0B3E3C1A20061C8800DF4E8B /* HZArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3E3C1920061C8800DF4E8B /* HZArrayExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		0B3E3C092005FD3C00DF4E8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B3E3C0C2005FD3C00DF4E8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B3E3C0E2005FD3C00DF4E8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B3E3C152005FDFF00DF4E8B /* HZStringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZStringExtension.swift; sourceTree = "<group>"; };
+		0B3E3C172006050B00DF4E8B /* HZPrint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZPrint.swift; sourceTree = "<group>"; };
+		0B3E3C1920061C8800DF4E8B /* HZArrayExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZArrayExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +44,7 @@
 		0B3E3BF62005FD3C00DF4E8B = {
 			isa = PBXGroup;
 			children = (
+				0B3E3C142005FDDD00DF4E8B /* HZExtension */,
 				0B3E3C012005FD3C00DF4E8B /* HZExtensionDemo */,
 				0B3E3C002005FD3C00DF4E8B /* Products */,
 			);
@@ -62,6 +69,16 @@
 				0B3E3C0E2005FD3C00DF4E8B /* Info.plist */,
 			);
 			path = HZExtensionDemo;
+			sourceTree = "<group>";
+		};
+		0B3E3C142005FDDD00DF4E8B /* HZExtension */ = {
+			isa = PBXGroup;
+			children = (
+				0B3E3C172006050B00DF4E8B /* HZPrint.swift */,
+				0B3E3C152005FDFF00DF4E8B /* HZStringExtension.swift */,
+				0B3E3C1920061C8800DF4E8B /* HZArrayExtension.swift */,
+			);
+			path = HZExtension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +153,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B3E3C162005FDFF00DF4E8B /* HZStringExtension.swift in Sources */,
 				0B3E3C052005FD3C00DF4E8B /* ViewController.swift in Sources */,
+				0B3E3C1A20061C8800DF4E8B /* HZArrayExtension.swift in Sources */,
 				0B3E3C032005FD3C00DF4E8B /* AppDelegate.swift in Sources */,
+				0B3E3C182006050B00DF4E8B /* HZPrint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

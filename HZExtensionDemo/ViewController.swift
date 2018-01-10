@@ -12,13 +12,35 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+//        stringSubscriptDemo()
+
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    func stringSubscriptDemo() {
+        let str = "012号⬆️yuio"
+
+        print(str[0])
+        print(str[3])
+        print(str[4])
+        print(str[8])
+        print(str[9])
+        print(str[20])
+
+        print(str[1,0])
+        print(str[1,2])
+        print(str[4,5])
+        print(str[4,6])
+    
+        print(str[(1, 5)])
+        print(str[(-1, 5)])
+        print(str[(1, 8)])
+        print(str[(5, 4)])
     }
+
+    
+    
 
 
 }
